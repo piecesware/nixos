@@ -22,7 +22,7 @@
   networking.firewall.enable = true;
 
   networking.firewall.allowedTCPPorts = [ 22 ];
-  networking.firewall.allowedUPPPorts = [ 22 ];
+  networking.firewall.allowedUDPPorts = [ 22 ];
 
   # Disable DHCP and configure IP manually
   networking.useDHCP = false;
