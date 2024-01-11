@@ -10,7 +10,6 @@
     wget
     curl
     htop
-    exa
     xclip
     tree
   ];
