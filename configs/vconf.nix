@@ -10,8 +10,9 @@
     wget
     curl
     htop
-    wg
-    neofetch
+    exa
+    xclip
+    tree
   ];
 
   networking.hostName = "nixos"; # Define your hostname.
