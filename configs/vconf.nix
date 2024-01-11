@@ -9,7 +9,6 @@
     vim
     wget
     curl
-    htop
   ];
 
   networking.hostName = "nixos"; # Define your hostname.

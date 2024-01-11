@@ -32,3 +32,6 @@ Connect to VPS
 ssh -i ~/.ssh/nixos-vps_ed25519 root@2[server_ip]
 
 change password for each user.
+
+
+nixos-rebuild --flake github:piecesware/nixos#pieces2 switch
