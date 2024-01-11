@@ -12,15 +12,17 @@
     htop
     xclip
     tree
+    eza
   ];
 
   networking.hostName = "nixos"; # Define your hostname.
   #networking.networkmanager.enable = true;
 
   # Disable NixOS's builtin firewall
-  networking.firewall.enable = false;
+  networking.firewall.enable = true;
 
-  #networking.firewall.allowedTCPPorts = [ 22 ];
+  networking.firewall.allowedTCPPorts = [ 22 ];
+  networking.firewall.allowedUPPPorts = [ 22 ];
 
   # Disable DHCP and configure IP manually
   networking.useDHCP = false;

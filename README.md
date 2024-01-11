@@ -35,3 +35,4 @@ change password for each user.
 
 
 nixos-rebuild --flake github:piecesware/nixos#pieces2 switch
+nixos-rebuild --flake github:piecesware/nixos#pieces2 switch --option eval-cache false --option tarball-ttl 0
