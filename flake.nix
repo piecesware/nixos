@@ -19,5 +19,19 @@
         }
       ];
     };
+    nixosConfigurations.pieces2-lvm = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      modules = [
+        ./configs/vconf.nix
+        disko.nixosModules.disko
+        ./disk-config-lvm.nix
+        {
+          _module.args.disks = [ "/dev/sda" ];
+          boot.loader.grub = {
+            devices = [ "/dev/sda" ];
+          };
+        }
+      ];
+    };
   };
 }
