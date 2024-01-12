@@ -62,12 +62,20 @@
           home = {
             size = "10G";
             content = {
+              type = "filesystem";
+              format = "ext4";
+              mountpoint = "/home";
+            };
+          };
+          home-geoff-admin = {
+            size = "10G";
+            content = {
               type = "luks";
               name = "crypted";
               content = {
                 type = "filesystem";
                 format = "ext4";
-                mountpoint = "/home";
+                #mountpoint = "/home";
               };
             };
           };
