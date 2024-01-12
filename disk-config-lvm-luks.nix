@@ -62,9 +62,13 @@
           home = {
             size = "10G";
             content = {
-              type = "filesystem";
-              format = "ext4";
-              mountpoint = "/home";
+              type = "luks";
+              name = "crypted";
+              content = {
+                type = "filesystem";
+                format = "ext4";
+                mountpoint = "/home";
+              };
             };
           };
         };
