@@ -1,0 +1,3 @@
+# modules/wireguard.nix
+{ pkgs, ... }: {
+}
