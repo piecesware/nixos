@@ -63,18 +63,33 @@ You'll have an ugly warning message about cache_check missing - to get rid of it
 services.lvm.boot.thin.enable = true;
 
 https://cinnabar.fr/posts/2018-12-24-nixos-installation.html
+
 https://discourse.nixos.org/t/decrypting-other-drives-after-the-root-device-has-been-decrypted-using-a-keyfile/21281
+
 https://discourse.nixos.org/t/security-pam-mount-no-examples/26585
+
 https://github.com/tweag/nixos-specialisation-dual-boot/blob/master/configuration/work.nix
+
 https://www.tweag.io/blog/2022-11-01-hard-user-separation-with-nixos/
+
 https://git.sr.ht/~fd/nix-configs/tree
+
 https://ersei.net/en/blog/its-nixin-time
+
 https://astrid.tech/2022/09/22/0/nixos-gpu-vfio/
+
 https://www.tweag.io/blog/2022-08-18-nixos-specialisations/
+
 https://www.reddit.com/r/NixOS/comments/tzksw4/mount_an_encrypted_zfs_datastore_on_login/?rdt=62878
+
 https://mynixos.com/options/users.extraUsers.%3Cname%3E
+
 https://github.com/nix-community/home-manager/pull/2548
+
 https://www.reddit.com/r/NixOS/comments/183mgu1/encrypted_home_homemanager_service_startup_order/
+
 https://www.google.com/search?q=cryptHomeLuks&sourceid=chrome&ie=UTF-8
+
 https://github.com/NixOS/nixpkgs/issues/21314
+
 https://www.google.com/search?q=nixos+mount+luks+during+login&sca_esv=597851563&ei=Z4GhZcWKBszCkPIPl8WtuAI&oq=nixos+mount+luks+during+l&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgDIhluaXhvcyBtb3VudCBsdWtzIGR1cmluZyBsKgIIAjIIECEYoAEYiwMyCBAhGKABGIsDMggQIRigARiLAzIIECEYoAEYiwMyCBAhGKABGIsDMggQIRigARiLAzIIECEYoAEYiwMyCBAhGKABGIsDMggQIRigARiLAzIIECEYqwIYiwNI19gBUKEEWOauAXAAeACQAQCYAbwCoAG2KqoBCDAuMjAuOS4yuAEDyAEA-AEBwgILEAAYiQUYogQYsAPCAgsQABiABBiiBBiwA8ICCBAAGIkFGKIEwgIIEAAYgAQYogTCAgYQABgWGB7CAgsQABiABBiKBRiRAsICBRAAGIAEwgIREAAYgAQYigUYkQIYsQMYgwHCAgsQABiABBixAxiDAcICBRAhGKsCwgIFECEYoAHiAwQYASBBiAYBkAYE&sclient=gws-wiz-serp#ip=1
