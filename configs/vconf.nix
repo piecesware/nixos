@@ -45,9 +45,10 @@
 
   # user configuration
   users.users = {
-    user1 = { # change this to you liking
-      initialPassword = "helloworld";
-      #hashedPassword = "";
+    user1 = { # change this to your liking
+      #initialPassword = "helloworld";
+      #make a hashed password$ mkpasswd -m SHA-512 -s
+      hashedPassword = "$6$l1d/Ul0cAIErgwzp$hPeU2jtPikkmYwZLnTPpAmfsMz63UNN7nm7p..uxb/J9KbLTIU4Ib0JIHJ9clGVJO/FMaSxH9eSSHn37qGSNK/";
       createHome = true;
       isNormalUser = true; # https://github.com/NixOS/nixpkgs/blob/master/nixos/modules/config/users-groups.nix#L100
       extraGroups = [
@@ -61,8 +62,9 @@
       ];
     };
     root = {
-      initialPassword = "helloworld";
-      #hashedPassword = "";
+      #initialPassword = "helloworld";
+      #make a hashed password$ mkpasswd -m SHA-512 -s
+      hashedPassword = "$6$l1d/Ul0cAIErgwzp$hPeU2jtPikkmYwZLnTPpAmfsMz63UNN7nm7p..uxb/J9KbLTIU4Ib0JIHJ9clGVJO/FMaSxH9eSSHn37qGSNK/";
       extraGroups = [
         "wheel"
       ];
