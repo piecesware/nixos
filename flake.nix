@@ -21,7 +21,7 @@
       # NOTE: Change this to aarch64-linux if you are on ARM
       system = "x86_64-linux";
       modules = [ 
-        ./configuration.nix 
+        ./nixos-configs/configuration.nix 
         inputs.impermanence.nixosModules.impermanence
       ];
     };
